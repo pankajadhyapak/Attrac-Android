@@ -2,6 +2,7 @@ package com.w3effects.attrac.attracapplication;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,12 +10,12 @@ import android.view.View;
 import android.widget.ImageButton;
 
 
-public class ThirdActivity extends Activity {
+public class EleventhPage extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_third);
+        setContentView(R.layout.activity_eleventh_page);
     }
 
     @Override
@@ -26,7 +27,7 @@ public class ThirdActivity extends Activity {
         nextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(ThirdActivity.this, ThirdActivity.class));
+                startActivity(new Intent(EleventhPage.this, TwelevthPage.class));
 
             }
         });
@@ -34,15 +35,14 @@ public class ThirdActivity extends Activity {
         prevBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ThirdActivity.this, SecondPage.class));
+                startActivity(new Intent(EleventhPage.this, TenthPage.class));
             }
         });
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_third, menu);
+        getMenuInflater().inflate(R.menu.menu_eleventh_page, menu);
         return true;
     }
 

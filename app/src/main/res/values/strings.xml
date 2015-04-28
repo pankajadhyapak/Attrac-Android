@@ -5,4 +5,14 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_second_page">SecondPage</string>
     <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_fourth_page">FourthPage</string>
+    <string name="title_activity_fivith_page">FivithPage</string>
+    <string name="title_activity_sixth_page">SixthPage</string>
+    <string name="title_activity_seveth_page">SevethPage</string>
+    <string name="title_activity_eighth_page">EighthPage</string>
+    <string name="title_activity_ninth_page">NinthPage</string>
+    <string name="title_activity_tenth_page">TenthPage</string>
+    <string name="title_activity_eleventh_page">EleventhPage</string>
+    <string name="title_activity_twelevth_page">TwelevthPage</string>
+    <string name="title_activity_thirteenth_page">ThirteenthPage</string>
 </resources>

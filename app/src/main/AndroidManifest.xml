@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.w3effects.attrac.attracapplication">
+    package="com.w3effects.attrac.attracapplication" >
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
             android:name=".HomePage"
-            android:label="@string/app_name">
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,10 +18,50 @@
         </activity>
         <activity
             android:name=".SecondPage"
-            android:label="@string/title_activity_second_page"></activity>
+            android:label="@string/title_activity_second_page" />
         <activity
-            android:name=".ThirdActivity"
-            android:label="@string/title_activity_third"></activity>
+            android:name=".ThirdPage"
+            android:label="@string/title_activity_third" />
+        <activity
+            android:name=".FourthPage"
+            android:label="@string/title_activity_fourth_page" >
+        </activity>
+        <activity
+            android:name=".FivithPage"
+            android:label="@string/title_activity_fivith_page" >
+        </activity>
+        <activity
+            android:name=".SixthPage"
+            android:label="@string/title_activity_sixth_page" >
+        </activity>
+        <activity
+            android:name=".SevethPage"
+            android:label="@string/title_activity_seveth_page" >
+        </activity>
+        <activity
+            android:name=".EighthPage"
+            android:label="@string/title_activity_eighth_page" >
+        </activity>
+        <activity
+            android:name=".NinthPage"
+            android:label="@string/title_activity_ninth_page" >
+        </activity>
+        <activity
+            android:name=".TenthPage"
+            android:label="@string/title_activity_tenth_page" >
+        </activity>
+        <activity
+            android:name=".EleventhPage"
+            android:label="@string/title_activity_eleventh_page" >
+        </activity>
+        <activity
+            android:name=".TwelevthPage"
+            android:label="@string/title_activity_twelevth_page" >
+        </activity>
+        <activity
+            android:name=".ThirteenthPage"
+            android:label="@string/title_activity_thirteenth_page" >
+        </activity>
     </application>
 
 </manifest>

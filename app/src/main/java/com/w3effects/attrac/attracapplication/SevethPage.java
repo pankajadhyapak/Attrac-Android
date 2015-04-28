@@ -2,6 +2,7 @@ package com.w3effects.attrac.attracapplication;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,15 +10,13 @@ import android.view.View;
 import android.widget.ImageButton;
 
 
-public class SecondPage extends Activity {
-
+public class SevethPage extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second_page);
+        setContentView(R.layout.activity_seveth_page);
     }
-
     @Override
     protected void onResume() {
         super.onResume();
@@ -27,7 +26,7 @@ public class SecondPage extends Activity {
         nextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SecondPage.this, ThirdPage.class));
+                startActivity(new Intent(SevethPage.this, EighthPage.class));
 
             }
         });
@@ -35,7 +34,7 @@ public class SecondPage extends Activity {
         prevBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SecondPage.this, HomePage.class));
+                startActivity(new Intent(SevethPage.this, SixthPage.class));
             }
         });
     }
@@ -43,7 +42,7 @@ public class SecondPage extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_second_page, menu);
+        getMenuInflater().inflate(R.menu.menu_seveth_page, menu);
         return true;
     }
 

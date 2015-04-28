@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/page1"
+    tools:context="com.w3effects.attrac.attracapplication.SecondPage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/image_view_width"
+        android:layout_height="@dimen/image_view_height"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/page2" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="30dp"
+        android:background="@mipmap/arrowsnext" />
+
+    <ImageButton
+        android:id="@+id/prev"
+        android:layout_width="@dimen/nav_view_width_height"
+        android:layout_height="@dimen/nav_view_width_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/nav_margin_bottom"
+        android:layout_marginLeft="@dimen/nav_margin_left"
+        android:background="@mipmap/arrowsprev" />
+
+
+</RelativeLayout>
